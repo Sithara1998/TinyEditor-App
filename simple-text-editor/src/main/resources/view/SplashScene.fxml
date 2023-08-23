@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" prefHeight="645.0" prefWidth="761.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.SplashSceneController">
+   <children>
+      <ImageView fx:id="ivSplash" fitHeight="370.0" fitWidth="401.0" layoutX="174.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/img/c9bb0785dc38e9b41322e547a1524522-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="359.0" layoutY="296.0" text="TinyTEXTEditor" />
+   </children>
+</AnchorPane>
