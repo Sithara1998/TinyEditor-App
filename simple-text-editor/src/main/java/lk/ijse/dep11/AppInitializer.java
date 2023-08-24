@@ -22,11 +22,12 @@ public class AppInitializer extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
+
+
         AnchorPane root = FXMLLoader.load(getClass().getResource("/view/SplashScene.fxml"));
         Scene mainScene = new Scene(root);
         primaryStage.setScene(mainScene);
         primaryStage.setTitle("Undecorated Window");
-
 
         primaryStage.initStyle(StageStyle.TRANSPARENT);
         root.setBackground(Background.fill(Color.TRANSPARENT));
@@ -34,17 +35,12 @@ public class AppInitializer extends Application {
         primaryStage.centerOnScreen();
         primaryStage.show();
 
-//
-//
-//        HTMLMethod();
+
         PauseTransition pause = new PauseTransition(Duration.millis(4000));
-//        pause.play();
         pause.setOnFinished(e->{
 
-
-
-            primaryStage.close();
             try {
+                primaryStage.close();
                 HTMLMethod();
             } catch (Exception ex) {
                 throw new RuntimeException(ex);
@@ -58,7 +54,6 @@ public class AppInitializer extends Application {
         AnchorPane mainRoot = FXMLLoader.load(getClass().getResource("/view/HTMLTextEditorScene.fxml"));
         Stage htmlStage = new Stage();
         Scene htmlScene = new Scene(mainRoot);
-        htmlStage.setScene(htmlScene);
         htmlStage.setScene(htmlScene);
         htmlStage.setTitle("HTML Window");
         htmlStage.show();

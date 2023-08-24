@@ -18,8 +18,6 @@ public class SplashSceneController {
         fadeIn.setToValue(1);
         fadeIn.playFromStart();
 
-
-
     }
 
 }
