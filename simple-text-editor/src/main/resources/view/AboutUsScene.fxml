@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="root" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="341.0" prefWidth="490.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.AboutUsSceneController">
+   <children>
+      <ImageView fitHeight="130.0" fitWidth="113.0" layoutX="195.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/img/accessories-text-editor-icon.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutY="135.0" text="TinyEditor" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="1.0" layoutY="267.0" text="copyright 1998-2023  - the TinyEditor team" AnchorPane.bottomAnchor="129.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="267.0">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutY="206.0" text="Tiny Editor is a small and lightweight text editor for the GNOME desktop" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Label alignment="CENTER" layoutX="34.0" layoutY="237.0" text="www.gedit.org" textFill="#cf5732" underline="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Label alignment="CENTER" layoutX="2.0" layoutY="169.0" text="20.0.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="-2.0" />
+      <Label alignment="CENTER" layoutX="232.0" layoutY="288.0" text="This program comes with absolutely no waranty." AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Label alignment="CENTER" layoutX="122.0" layoutY="304.0" text="See the GNU General Public Licenese, version 2 or later for details" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="304.0" />
+   </children>
+</AnchorPane>

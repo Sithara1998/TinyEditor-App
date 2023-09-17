@@ -27,7 +27,6 @@ public class AppInitializer extends Application {
         AnchorPane root = FXMLLoader.load(getClass().getResource("/view/SplashScene.fxml"));
         Scene mainScene = new Scene(root);
         primaryStage.setScene(mainScene);
-        primaryStage.setTitle("Undecorated Window");
 
         primaryStage.initStyle(StageStyle.TRANSPARENT);
         root.setBackground(Background.fill(Color.TRANSPARENT));
@@ -55,7 +54,7 @@ public class AppInitializer extends Application {
         Stage htmlStage = new Stage();
         Scene htmlScene = new Scene(mainRoot);
         htmlStage.setScene(htmlScene);
-        htmlStage.setTitle("HTML Window");
+        htmlStage.setTitle("Tiny Text Editor");
         htmlStage.show();
     }
 }
